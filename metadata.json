@@ -1,0 +1,6 @@
+{
+  "name": "Cátedra de Cálculo Diferencial: La Derivada y la Recta Tangente",
+  "description": "Plataforma universitaria interactiva de cálculo diferencial superior para la comprensión rigurosa y visual de la derivada, tasas de cambio y rectas tangentes con demostraciones paso a paso y referencias en formato APA 7.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

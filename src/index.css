@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+/* High-contrast mathematical formula typography for KaTeX in Dark and Light modes */
+.dark .katex {
+  color: #f8fafc !important;
+}
+
+.dark .katex .mord,
+.dark .katex .mbin,
+.dark .katex .mrel,
+.dark .katex .mop,
+.dark .katex .minner,
+.dark .katex .mopen,
+.dark .katex .mclose,
+.dark .katex .mord.text,
+.dark .katex .frac-line,
+.dark .katex .vlist-t {
+  color: #f8fafc !important;
+  border-color: #f8fafc !important;
+}
+
+.dark .katex .sqrt .sqrt-line {
+  border-color: #f8fafc !important;
+}
+
+.dark .katex-display {
+  color: #f8fafc !important;
+}
+
+/* Light mode crisp math typography */
+html:not(.dark) .katex {
+  color: #0f172a !important;
+}
+
+html:not(.dark) .katex .frac-line,
+html:not(.dark) .katex .sqrt .sqrt-line {
+  border-color: #0f172a !important;
+}
